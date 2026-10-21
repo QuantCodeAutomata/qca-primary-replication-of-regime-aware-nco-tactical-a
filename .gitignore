@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+
+# Testing
+.pytest_cache/
+
+# Data — raw files and bulk formats are excluded; results/ CSVs are kept
+data/raw/
+*.parquet
+*.csv
+!results/*.csv
